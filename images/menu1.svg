@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.85 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #aa0004;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_feather-menu" data-name="Icon feather-menu">
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M0,6H18.85"/>
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M0,1H18.85"/>
+    <path id="Path_5" data-name="Path 5" class="cls-1" d="M0,11H18.85"/>
+  </g>
+</svg>

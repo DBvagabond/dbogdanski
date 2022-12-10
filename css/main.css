@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Silkscreen:wght@400;700&display=swap");
+:root {
+  --primary-color: rgb(3, 3, 3);
+  --secondary-color: #AA0004;
+}
+
+body {
+  margin: 0;
+  font-family: 'Heebo';
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  background: var(--primary-color);
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--secondary-color);
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: white;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .mobile-menu {
+  width: 1.5em;
+  cursor: pointer;
+  display: block;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu-exit {
+  width: 1.5em;
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 5em 2em;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  right: 0;
+  top: 0;
+  background: grey;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
