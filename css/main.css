@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Heebo';
   background-color: var(--primary-color);
+  overflow-x: hidden;
 }
 
 .navbar {
